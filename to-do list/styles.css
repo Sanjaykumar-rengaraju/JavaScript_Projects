@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nova+Square&family=Pacifico&display=swap');
+
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    height : 100vh;
+}
+
+.container{
+    border : 2px solid rgb(16, 137, 212);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(16, 137, 212);
+    height : 150px;
+    width : 60%;
+    text-align: center;
+}
+
+.heading {
+    color : rgb(16, 137, 212);
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.form{
+    padding: 30px;
+}
+
+input{
+    width : 80%;
+    padding : 10px;
+    border : 1.5px solid rgb(16, 137, 212);
+    box-shadow: turquoise;
+    border-radius: 10px;
+}
+
+input:focus{
+    background-color:  rgb(161, 201, 226);
+    color : black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn{
+    padding : 8px;
+    width:10%;
+    border : 1.5px solid rgb(16, 137, 212);
+    box-shadow: turquoise;
+    border-radius: 10px;
+    color : black;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: rgb(16, 137, 212);
+    color : white;
+}
+
+.task{
+    width : 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow : 0 0 3px rgb(16, 137, 212);
+    padding : 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border : 2px solid rgb(16, 137, 212);
+}
+
+.task li{
+    list-style: none;
+    flex: 4;
+    padding : 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task button{
+    flex : 1;
+    border-radius: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.task .checkTask{
+    color : orange !important;
+    margin-right: 5px;
+    border: 2px solid orange !important;
+    font-size: 1.5rem;
+}
+
+.task .checkTask:hover{
+    background-color: rgb(239, 212, 163);
+}
+
+.task .deleteTask{
+    color : red !important;
+    border: 2px solid red !important;
+    font-size: 1.5rem;
+}
+
+.task .deleteTask:hover{
+    background-color: rgb(231, 163, 163);
+}
